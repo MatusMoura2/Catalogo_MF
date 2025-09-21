@@ -1,0 +1,38 @@
+header{
+  background-color: var(--color-primary);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px outset rgba(255, 0, 208, 0.34);
+  box-shadow: 00px 20px 10px rgba(10, 20, 30, 0.1);
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+}
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo-icon{
+  margin: 0;
+  width: 60px;
+  height: auto;
+}
+.instagram-icon{
+  width: 40px;
+  height: auto;
+}
+.catalog-nav-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.catalog-contact-container{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
