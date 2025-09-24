@@ -1,0 +1,38 @@
+.crochet-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.crochet-card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.crochet-card-body h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.crochet-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.crochet-weight {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.crochet-card-btn {
+    background-color: #2e6aaa;
+    width: 100%;
+    padding: 10px;
+}
