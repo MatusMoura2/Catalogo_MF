@@ -13,34 +13,21 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Setter
 @Getter
-@AllArgsConstructor
+@Setter
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@Table(name = "tb_crochet")
-public class Crochet {
-	
+@Table(name = "tb_user")
+public class User {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private UUID id;
 	
-	@Column(name = "price")
-	private Double price;
+	@Column(name ="email")
+	private String email;
 	
-	@Column(name = "url_img")
-	private String urlImg;
-	
-	@Column(name = "weight")
-	private Double weight;
-	
-	@Column(name = "title")
-	private String title;
-	
-	@Column(name = "description")
-	private String description;
-	
-	@Column(name = "size")
-	private Double size;
-	
+	@Column(name = "password")
+	private String password;
 }
